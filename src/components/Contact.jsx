@@ -23,7 +23,7 @@ function Contact() {
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label className="label">Email address</Form.Label>
+              <Form.Label className="label">Email:</Form.Label>
               <Form.Control
                 size="md"
                 name="email"
