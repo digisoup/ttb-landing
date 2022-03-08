@@ -1,13 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Rocker&family=Orbitron:wght@600&family=Poppins&display=swap");
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: slategray;
+  font-family: "Popper";
 }
+.background-image {
+  /* background-image: url(./assets/bandPic.jpg); */
+  position: absolute;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  opacity: 0.2;
+}
+.text-over-image {
+  position: relative;
+  font-size: 3rem;
+  font-family: "New Rocker";
+  color: Black;
+  text-shadow: 2px 2px black;
+}
+.form {
+  position: relative;
+  color: white;
+  /* margin-right: 0.2rem; */
+}
+.label {
+  font-size: x-large;
+}
+p {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(75, 25, 3);
+  text-shadow: 1px, 1px black;
+}
+.logo {
+  position: relative;
+  height: 75px;
+  width: 35px;
+}
+.icon-row {
+  position: relative;
+}
+.icon-f {
+  font-size: 1.7rem;
+  color: rgb(23, 74, 216);
+}
+.icon-t {
+  font-size: 1.7rem;
+  color: rgb(23, 145, 216);
+}
+.icon-i {
+  font-size: 1.7rem;
+  color: rgb(216, 23, 119);
 }
